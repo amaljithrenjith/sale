@@ -1,17 +1,24 @@
-.App {
-  text-align: center;
+/* App.css */
+.table-container {
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
+
+th {
+  background-color: #f2f2f2;
+}
+
 
 .App-header {
   background-color: #282c34;
